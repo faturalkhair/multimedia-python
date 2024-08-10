@@ -18,5 +18,5 @@ combined_audio.export('hasil_combinedAudio.mp3', format='mp3')
 audio.export('hasil_format.wav', format='wav')
 
 # Pengaturan volume
-louder_audio = audio + 10 # nambah 10dB
+louder_audio = audio - 20 # nambah 10dB
 
